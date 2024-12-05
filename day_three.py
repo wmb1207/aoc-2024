@@ -44,8 +44,6 @@ def step_two(content: str) -> int:
             total += a * b
 
     return total
-        
-
 
     
 
@@ -54,7 +52,7 @@ def step_two(content: str) -> int:
     # return step_one(valid_text)
 
 def main():
-    content = read_input('input_3.txt')
+    content = read_input('input_flor.txt')
     result = step_one(content)
     print(f"Step one: {result}")
     result = step_two(content)
